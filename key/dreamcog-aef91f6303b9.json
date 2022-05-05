@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dreamcog",
+  "private_key_id": "aef91f6303b962fe7f61e6f66b61227c8c3b532f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCDffMIMYyB4fzV\nHbnwIef15hgzDT+yxl6+wy84PGv4y3R7ahj87jKW/T0R9POGOCU7ge8JXzF7Xq1Y\ns0BxdbhgZOmbfwAu1623g601Xb7KEfBekMMatFYngm1UA8K35z7DjD8+uy1018Ig\nTtRhTX7CDVgiXHKGGWdRhtKmuVAgULx/OfT96793R3q4ycOZQKRoAWDrqYWc+U+L\nPJgPHgfgg4F8keOzC6RHy8lVERhDhc9dyBzkPQCjK8a7+O/s+z3EhHBS2M7CWzSP\npJQOmKJKEC8y+mKx8KiVC6K//FcC/0J6zJp5ppndL9sjaMzY5nuUscDtNe8k6VLf\ncgrZmFaFAgMBAAECggEAE8+cGDXu53q27x0FcKqLGj9KkhaC7Fp6197sdFqWIev1\nZsq7bRAuSxVoaBYxwp0e7vJKo2zWNbI0B9Mp+G42Ez/g+m6OBoC0SZvrMskm/6bo\nQjcpThKxkE5UTn4qji6nBCtTNA5bcOk49EksMmTMnkwIZVTsZEvbhyr6/eeZrOSF\n2EzF0EjdlBvHVQiGK9IqwBN2y1VFf9lOZ6WopfTBvchsIjMvs69TvPkWM4jfWk0t\nXubRWtHQsUN5TGzhT6q6sZHDOSo5DfVXIsnI6PldtqaVUYCqUVHQAOvI/Eoj/Jcw\n2Kd0MD0aovt5eAa/MD9YT2dx497RBHnjrN6H1nFPAQKBgQC45lEQoUPeDT8wi5i+\nog4jFnkc5oC2np2E0hLfG8VWEE2rcs02gkm/kXcBzjrT7YL09eDd2CdS62xlf4xp\nGe4r9GNyKlysgRh/HAcaNIqWgyaq9kZSreHgy+2IETP4DKygRMk7gzwUvG0lJ3zX\nVlxfQoCznSOlguaozgd3kYkz4QKBgQC2DiJXtU6yQRW7+Tz3Xv+51RQku17RdBi9\nKjOeaWFPYbThA9Kgq9SgnvnMVTzCDMfM+UuTbAjvcJm4P6JbdfkmBy9weIJMdXd3\nllVAiL3c5rDKL2Cimw0jfsPvBTFrLj31cIw98KB6B3QJou+OqLCSRJzFDAWCOSOw\n5JwTsm63JQKBgBoWrTN6fZf0KIlR+RBUz0fWIOqZ/2lFAha+iVkfkv1suXjKbvgU\n9BDqlm8TySsj5QlpM/w5Rnslqpq7n3Uo6nkbN3jhT0grwugUbVAeP7uy757Jtuxt\nimRsgaxkOP/z0dufOQGDp9OJLqFCbBP6JHhwarZtIp101dTVlSoix8ghAoGBALMj\nb0mMnzYpcuB3HDVxJgLOlzaZpHBHY7xnVUmP+e+pfdlX8J6m1d+C7tvQF6v99XBM\n8b/LM3OgAbJZ80E58YIo2dY6zkO75mUm6RZKN0CxQs6AFf+KwD/oEZYVLw5+/vqO\n14BvUQkiYlzFFiHy/WO/3d7KuHTuEp+SI74B+o19AoGARi1s7KSlkFT5GDH2/Qki\nt8svE+DovsekeVYT6z7oRXDGjd8M+Bj99rX8ZNmFPTj3T2okFbLLLzRu1mGu5uTG\nEnqfYENd2G53DbEtiSuUyEtL0C+TF2nZcfsn4H0zAEOiyudbtTC2NWddMyK70p42\nB5AsUqxyKKcIgcf8XJvkOCY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dexduck@dreamcog.iam.gserviceaccount.com",
+  "client_id": "101724370544419353104",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dexduck%40dreamcog.iam.gserviceaccount.com"
+}

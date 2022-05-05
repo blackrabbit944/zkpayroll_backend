@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-10 15:31+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../app/Helpers/Achivement.php:76
+#, php-format
+msgid "邀请了 %d 个用户"
+msgstr ""
+
+#: ../../app/Helpers/Achivement.php:78
+#, php-format
+msgid "回答了 %d 个问题"
+msgstr ""
+
+#: ../../app/Helpers/Achivement.php:80
+#, php-format
+msgid "添加了 %d 个问题"
+msgstr ""
+
+#: ../../app/Helpers/Achivement.php:82
+#, php-format
+msgid "分享了 %d 个链接"
+msgstr ""
+
+#: ../../app/Helpers/Achivement.php:84
+msgid "尚不支持 BeVoteUp 类型的奖励"
+msgstr ""
+
+#: ../../app/Helpers/Achivement.php:180
+#, php-format
+msgid "不存在名为 `%s' 的成就"
+msgstr ""
+
+#: ../../app/Helpers/Achivement.php:189
+msgid "尚不能获得此奖励"
+msgstr ""
+
+#: ../../app/Http/Controllers/AchivementController.php:68
+msgid "没有获得这个成就"
+msgstr ""
+
+#: ../../app/Http/Controllers/CoinController.php:48
+msgid "兑换积分失败"
+msgstr ""
+
+#: ../../app/Http/Controllers/UserController.php:262
+#: ../../app/Http/Controllers/UserController.php:292
+msgid "签名的名字不正确"
+msgstr ""
+
+#: ../../app/Http/Controllers/UserController.php:267
+#: ../../app/Http/Controllers/UserController.php:297
+msgid "签名时间不正确"
+msgstr ""
+
+#: ../../app/Http/Controllers/UserController.php:280
+#: ../../app/Http/Controllers/UserController.php:310
+msgid "签名不正确"
+msgstr ""
+
+#: ../../app/Http/Controllers/UserController.php:303
+#: ../../app/Http/Controllers/UserController.php:333
+msgid "这个地址已经绑定过用户"
+msgstr ""
+
+#: ../../app/Http/Controllers/UserController.php:314
+#: ../../app/Http/Controllers/UserController.php:344
+msgid "密码错误"
+msgstr ""
+
+#: ../../app/Http/Controllers/TestController.php:32
+msgid "翻译范例文本"
+msgstr ""
+
+#: ../../app/Models/CoinLog.php:125
+msgid "用户 coin 余额小于 0，拒绝修改"
+msgstr ""
+
+#: ../../app/Models/CoinLog.php:200
+msgid "兑换数量必须大于 0"
+msgstr ""
+
+#: ../../app/Models/CoinLog.php:225
+msgid "兑换积分操作太频繁了，请一分钟之后再试"
+msgstr ""
+
+#: ../../app/Helpers/Ethereum.php:159
+msgid "以太坊后端返回了无法解析的数据"
+msgstr ""
+
+#: ../../app/Helpers/Ethereum.php:173
+msgid "以太坊后端没有响应"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:219
+msgid "加密货币"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:220
+msgid "Geek"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:221
+msgid "前端开发"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:222
+msgid "编程语言"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:223
+msgid "游戏"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:224
+msgid "生活"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:225
+msgid "城市"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:226
+msgid "站务帮助"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:227
+msgid "其他"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:228
+msgid "音乐"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:229
+msgid "热门品牌"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:230
+msgid "投资理财"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:231
+msgid "运动"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:232
+msgid "明星偶像"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:233
+msgid "热门开源框架/项目"
+msgstr ""
+
+#: ../../app/Http/Controllers/ClubController.php:234
+msgid "博客/播客/Youtube频道"
+msgstr ""
