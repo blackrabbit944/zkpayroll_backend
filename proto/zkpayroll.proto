@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package zkpayroll;
+
+service ZkpayrollGrpc {
+    rpc CheckSign (CheckSignRequest) returns (CheckSignReply) {}
+}
+
+// EthSign
+message CheckSignRequest {
+    string sign = 1;
+    string wallet_address = 2;
+    string sign_params = 3;
+}
+  
+message CheckSignReply {
+    string message = 1;
+}

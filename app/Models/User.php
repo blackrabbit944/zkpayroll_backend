@@ -82,29 +82,13 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
      */
     protected $guarded = ['user_id','create_time','update_time','is_super_admin'];
 
-    protected $hidden = ['unique_hash'];
+    protected $hidden = [];
    
     public static function boot() {
         parent::boot();
         User::observe(new \App\Observers\UserObserver());
     }
     
-    /**
-     * 获取Discord绑定用户
-     */
-    public function discord_user()
-    {
-        return $this->hasOne('App\Models\DiscordUser','user_id','user_id');
-    }
-
-    /**
-     * 获取Profile。
-     */
-    public function profile()
-    {
-        return $this->hasOne('App\Models\Profile','user_id','user_id');
-    }
-
     /**
      * Get the identifier that will be stored in the subject claim of the JWT.
      *

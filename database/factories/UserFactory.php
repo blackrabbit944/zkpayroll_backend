@@ -22,10 +22,8 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-
         return [
             'wallet_address'      =>  '0x'.Str::random(40),
-            'unique_hash'         =>  Str::random(16),
             'is_super_admin'      =>  0,
         ];
     }

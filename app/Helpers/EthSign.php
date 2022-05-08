@@ -2,8 +2,8 @@
 
 namespace App\Helpers;
 
-use Tinyclub\CheckSignRequest;
-use Tinyclub\TinyclubGrpcClient;
+use Zkpayroll\CheckSignRequest;
+use Zkpayroll\ZkpayrollGrpcClient;
 use Illuminate\Support\Facades\Log;
 use App\Models\Traits\ErrorMessage;
 
@@ -91,7 +91,7 @@ class EthSign {
         
         $host = config('grpc.host').':'.config('grpc.port');
 
-        $client = new TinyclubGrpcClient($host,[
+        $client = new ZkpayrollGrpcClient($host,[
             'credentials' => \Grpc\ChannelCredentials::createInsecure(),
         ]);
 

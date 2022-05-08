@@ -3,9 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Database\Seeders\ClubUserSeeder;
-use Database\Seeders\DiscordLogSeeder;
-use Database\Seeders\TxSeeder;
+use Database\Seeders\SalarySeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -17,9 +15,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            ClubUserSeeder::class,
-            DiscordLogSeeder::class,
-            TxSeeder::class,
+            SalarySeeder::class,
         ]);
     }
 }

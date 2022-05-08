@@ -29,17 +29,8 @@ class AuthServiceProvider extends ServiceProvider
         // application. The callback which receives the incoming request instance
         // should return either a User instance or null. You're free to obtain
         // the User instance via an API token or any other method necessary.
-        Gate::policy('App\Models\Collection', 'App\Policies\CollectionPolicy');
-        Gate::policy('App\Models\Item', 'App\Policies\ItemPolicy');
-        Gate::policy('App\Models\Order', 'App\Policies\OrderPolicy');
-        Gate::policy('App\Models\Link', 'App\Policies\LinkPolicy');
-        Gate::policy('App\Models\Club', 'App\Policies\ClubPolicy');
-        Gate::policy('App\Models\ClubUser', 'App\Policies\ClubUserPolicy');
-        Gate::policy('App\Models\DiscordLog', 'App\Policies\DiscordLogPolicy');
-        Gate::policy('App\Models\Tx', 'App\Policies\TxPolicy');
-        Gate::policy('App\Models\Post', 'App\Policies\PostPolicy');
-
-        Gate::define('unsplash-list', 'App\Policies\UnsplashPolicy@viewAny');
+        Gate::policy('App\Models\Salary', 'App\Policies\SalaryPolicy');
+        Gate::policy('App\Models\SteamingSalary', 'App\Policies\SteamingSalaryPolicy');
 
         // $this->app['auth']->viaRequest('api', function ($request) {
         //     if ($request->input('api_token')) {

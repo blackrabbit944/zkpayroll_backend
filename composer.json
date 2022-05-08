@@ -57,7 +57,7 @@
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
             "GPBMetadata\\": "app/Grpc/GPBMetadata/",
-            "Tinyclub\\": "app/Grpc/Tinyclub/"
+            "Zkpayroll\\": "app/Grpc/Zkpayroll/"
         }
     },
     "autoload-dev": {

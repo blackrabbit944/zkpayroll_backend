@@ -13,8 +13,6 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        Commands\UpdateDiscordDataCommand::class,
-        Commands\RetryDiscordFailMessageCommand::class,
     ];
 
 
@@ -26,8 +24,5 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        ///Bot
-        $schedule->command('discord:update_data')->everyTenMinutes();
-        $schedule->command('discord:retry_messages')->everyTenMinutes();
     }
 }
