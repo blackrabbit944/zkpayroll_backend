@@ -107,13 +107,13 @@ class UserController extends Controller
         }
 
         ///处理用户邀请的逻辑
-        if ($request->input('source_from')) {
-            $from_user = User::find($request->input('source_from'));
-            if ($from_user) {
-                Log::debug('找到了邀请来源的用户是:'.$from_user->user_id);
-                UserService::setInviteAddress($user,$from_user->wallet_address);
-            }
-        }
+        // if ($request->input('source_from')) {
+        //     $from_user = User::find($request->input('source_from'));
+        //     if ($from_user) {
+        //         Log::debug('找到了邀请来源的用户是:'.$from_user->user_id);
+        //         UserService::setInviteAddress($user,$from_user->wallet_address);
+        //     }
+        // }
 
 
         return $this->success([
